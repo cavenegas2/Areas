@@ -26,5 +26,16 @@ public class Implementaciones {
 		return aux2;
 		
 	}
+	
+	
+	public double calcularrectangulo(double base , double altura) {
+		double aux3 = 0;
+		
+		aux3=((base*altura)/2);
+		System.out.println("La base es igual a: "+base +"y la altura es: " +altura);
+		System.out.println("El area rectangulo es: ");
+		return aux3;
+		
+	}
 
 }
