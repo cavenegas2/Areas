@@ -37,5 +37,21 @@ public class Implementaciones {
 		return aux3;
 		
 	}
+	
+	
+	public void  calcularTodo(double lado, double base, double altura) {
+		
+		double cuadrado = this.calcularcuadarado(lado);
+		System.out.println("El area cuadrado es: " +cuadrado);
+		
+		double triangulo = this.calculartriangulo(base, altura);
+		System.out.println("El area triangulo es: "+triangulo);
+		
+		double rectangulo = this.calcularrectangulo(base, altura);
+		System.out.println("El area rectangulo es: "+rectangulo);
+		
+		
+		
+	}
 
 }
